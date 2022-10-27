@@ -16,18 +16,18 @@ main {
   width: 100vw;
   position: absolute;
   z-index: 2;
-  overflow: hidden;
   transition: transform 500ms cubic-bezier(.13,.53,.38,.97);
 }
 
 .main {
   background-position: center;
   background-size: cover;
-  position: absolute;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
   z-index: 2;
-  width: 100vw;
   height: 120vh;
-  overflow: hidden;
   transition: transform 500ms cubic-bezier(.13,.53,.38,.97);
 }
 
