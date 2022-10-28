@@ -57,5 +57,5 @@ body {
   z-index: 0;
   height: 120vh;
   transition: transform 500ms cubic-bezier(.13,.53,.38,.97);
-  filter: blur(40px);
+  filter: blur(25px);
 }
